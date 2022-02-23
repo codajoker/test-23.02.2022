@@ -76,7 +76,7 @@ export function ColumnGroupingTable({ objectCity, handleOpen }) {
                   return (
                     <TableRow key={nanoid()} onClick={() => handleOpen()} hover>
                       <TableCell key={nanoid()}> {city}</TableCell>
-                      {years.map(year =>
+                      {/* {years.map(year =>
                         objectCity[city].G[year] ? (
                           <>
                             <TableCell key={nanoid()}>
@@ -96,7 +96,7 @@ export function ColumnGroupingTable({ objectCity, handleOpen }) {
                             <TableCell key={nanoid()}>-</TableCell>
                           </>
                         )
-                      )}
+                      )} */}
                     </TableRow>
                   );
                 })}
