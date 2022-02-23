@@ -53,7 +53,6 @@ export const App = () => {
     <>
       {objectCity && (
         <>
-          {' '}
           <ColumnGroupingTable
             handleOpen={handleOpen}
             objectCity={objectCity}
